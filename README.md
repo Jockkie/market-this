@@ -1,3 +1,5 @@
+<img src=".claude-plugin/icon.png" alt="" width="96" height="96">
+
 # Market This
 
 *Part of [Jockkie Studio's open-source skills](https://github.com/Jockkie/jockkie-studio). I do the geeking. You get the easy part.*
