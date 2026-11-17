@@ -1,0 +1,183 @@
+{
+  "_example": "Example data for a fictional business. Replace everything with the user's own data.",
+  "schema": "market-this/dossier/v1",
+  "compatible_with": "consult-anything/dossier/v1",
+  "created": "2026-11-08",
+  "updated": "2026-11-08",
+  "language": "nl",
+  "business": {
+    "name": "Example: Warmtewerk Installaties",
+    "sector": "heat pump installation",
+    "size": "6 people",
+    "offer": {
+      "description": "Heat pump installation including subsidy paperwork",
+      "price": "8,000 to 14,000 EUR",
+      "label": "seen",
+      "quote": "Heat pump installation including the subsidy paperwork, between 8 and 14 thousand"
+    }
+  },
+  "phase": 2,
+  "stage": "repeatable",
+  "goal": {
+    "description": "20 installations per quarter",
+    "baseline": "11 per quarter",
+    "date": "2027-02-15",
+    "label": "seen",
+    "quote": "I want to get to 20 installations a quarter, we now do about 11"
+  },
+  "gate1": {
+    "passed": true,
+    "confirmed_by_user": true
+  },
+  "voice_of_customer": [
+    "We had no idea which subsidy applied to us",
+    "They were the only ones who came to look before quoting"
+  ],
+  "alternatives": [
+    "large national installers",
+    "the local plumber",
+    "postponing the decision"
+  ],
+  "pillars": [
+    {
+      "name": "market",
+      "score": 8,
+      "evidence": "Waiting lists at competitors",
+      "label": "inferred",
+      "basis": "Waiting lists at competitors"
+    },
+    {
+      "name": "customer",
+      "score": 5,
+      "evidence": "Homeowners in general, no segment",
+      "label": "seen",
+      "quote": "Our customers are homeowners, really anyone with a house"
+    },
+    {
+      "name": "problem",
+      "score": 7,
+      "evidence": "Gas price and subsidy deadline",
+      "label": "seen",
+      "quote": "People call because of the gas price and the subsidy deadline"
+    },
+    {
+      "name": "positioning",
+      "score": 4,
+      "evidence": "Same claims as competitors",
+      "label": "seen",
+      "quote": "We say what everyone says: quality and service"
+    },
+    {
+      "name": "offer",
+      "score": 6,
+      "evidence": "Clear package, no first small step",
+      "label": "seen",
+      "quote": "It's one package, they decide yes or no after the visit"
+    },
+    {
+      "name": "pricing",
+      "score": 6,
+      "evidence": "Market average",
+      "label": "inferred",
+      "basis": "Market average"
+    },
+    {
+      "name": "motion",
+      "score": 7,
+      "evidence": "Home visit then quote fits the price",
+      "label": "seen",
+      "quote": "We always come by first, then send the quote"
+    },
+    {
+      "name": "channels",
+      "score": 5,
+      "evidence": "Referrals only, one untested ad try",
+      "label": "seen",
+      "quote": "Almost everything comes from referrals, we tried Facebook ads once"
+    },
+    {
+      "name": "message",
+      "score": 4,
+      "evidence": "Website lists brands and specs",
+      "label": "seen",
+      "quote": "The website mostly lists the brands we install"
+    },
+    {
+      "name": "proof",
+      "score": 5,
+      "evidence": "Twelve reviews, no cases",
+      "label": "seen",
+      "quote": "We have twelve Google reviews"
+    }
+  ],
+  "weakest_pillar": {
+    "name": "positioning",
+    "confirmed_by_user": true
+  },
+  "gate2": {
+    "passed": true
+  },
+  "positioning": {
+    "one_line": "",
+    "category": "",
+    "status": "draft"
+  },
+  "motion": "sales-led",
+  "channels": [
+    {
+      "name": "partnerships with energy advisors",
+      "test": "",
+      "budget": "",
+      "threshold": "",
+      "result": null
+    },
+    {
+      "name": "local SEO",
+      "test": "",
+      "budget": "",
+      "threshold": "",
+      "result": null
+    }
+  ],
+  "channel_guidelines": [
+    {
+      "channel": "",
+      "summary": "",
+      "source": "",
+      "date": ""
+    }
+  ],
+  "simulations": [],
+  "plan": {
+    "start": "2026-11-10",
+    "review": "2027-02-15",
+    "north_star": "installations per month"
+  },
+  "metrics": [
+    {
+      "week": 0,
+      "reach": null,
+      "activation": 9,
+      "sales": 4,
+      "revenue": null,
+      "referral": 2,
+      "label": "seen",
+      "quote": "Last month: nine inquiries, four sales, two of them through referrals"
+    }
+  ],
+  "brand_brief": {
+    "status": "proposal"
+  },
+  "external_tools": {
+    "monid": false,
+    "flora": false,
+    "jev": false,
+    "mirofish": false,
+    "spend": 0,
+    "cap": null
+  },
+  "routing": {
+    "next": "",
+    "notes": ""
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "market-this",
+  "owner": {
+    "name": "Jockkie Studio",
+    "email": "info@jockkie.com",
+    "url": "https://www.jockkie.com"
+  },
+  "metadata": {
+    "description": "Go-to-market strategist for owners and makers: interview, ten-pillar diagnosis, positioning, channels and distribution, 90-day plan, content calendar, brand brief and dashboard."
+  },
+  "plugins": [
+    {
+      "name": "market-this",
+      "source": "./",
+      "description": "Go-to-market strategist for owners and makers: interview, ten-pillar diagnosis, positioning, channels and distribution, 90-day plan, content calendar, brand brief and dashboard.",
+      "version": "0.1.0"
+    }
+  ]
+}

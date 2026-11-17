@@ -1,0 +1,22 @@
+{
+  "name": "market-this",
+  "version": "0.1.0",
+  "description": "Go-to-market strategist for owners and makers: interview, ten-pillar diagnosis, positioning, channels and distribution, 90-day plan, content calendar, brand brief and dashboard.",
+  "author": {
+    "name": "Jockkie Studio",
+    "email": "info@jockkie.com",
+    "url": "https://www.jockkie.com"
+  },
+  "homepage": "https://www.jockkie.com",
+  "repository": "https://github.com/Jockkie/market-this",
+  "license": "MIT",
+  "keywords": [
+    "go-to-market",
+    "marketing",
+    "positioning",
+    "distribution",
+    "pricing",
+    "small-business"
+  ],
+  "privacyPolicyUrl": "https://github.com/Jockkie/market-this#privacy"
+}

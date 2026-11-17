@@ -1,0 +1,16 @@
+{
+  "description": "Jockkie Studio self-check: sends a reply back for a fix when it asks more than one question, contains an internal note, or claims a file was saved without writing one. Only active in sessions where the market-this skill is used.",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/check_reply.py\" market-this",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

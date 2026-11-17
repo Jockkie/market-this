@@ -1,0 +1,16 @@
+name: Idea or improvement
+description: Suggest a use case, a platform, a better question or an improvement.
+title: "[idea] <short description>"
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would make the skill more useful for you?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Your situation (optional)
+      description: Type of business or situation, without personal data.
