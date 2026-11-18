@@ -2,7 +2,7 @@
 
 # Market This
 
-*Part of [Jockkie Studio's open-source skills](https://github.com/Jockkie/jockkie-studio). I do the geeking. You get the easy part.*
+*Part of [Jockkie Studio's](https://www.jockkie.com) open-source skills. I do the geeking. You get the easy part.*
 
 > **Version 0.1.0, beta.** Tested in Claude; built to the specification of the other platforms but not yet tested there. See [Platform status](#platform-status), and please [report what you find](https://github.com/Jockkie/market-this/issues/new/choose).
 
@@ -27,7 +27,6 @@ The skill folder is `skills/market-this`.
 /plugin marketplace add Jockkie/market-this
 /plugin install market-this@market-this
 ```
-Want all five Jockkie Studio skills in one go? Use `/plugin marketplace add Jockkie/jockkie-studio` and then `/plugin install market-this@jockkie-studio`.
 
 **Claude.ai**
 Zip the `skills/market-this` folder and upload it in Claude's skills settings.
