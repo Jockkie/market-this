@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Build dist/<skill>.zip with SKILL.md at the root, for uploads to Microsoft Copilot,
-Claude.ai, ChatGPT and Grok. Deterministic: same files, same bytes.
+Claude.ai, ChatGPT and Grok. The check compares file names and contents, so a different zlib
+or file mode on another machine does not count as a change.
 
     python3 tools/build_zip.py          # build
     python3 tools/build_zip.py --check  # fail if dist/<skill>.zip is out of date
@@ -33,7 +34,10 @@ def main():
     name, data = build()
     out = os.path.join(ROOT, "dist", name + ".zip")
     if "--check" in sys.argv:
-        if not os.path.exists(out) or open(out, "rb").read() != data:
+        def contents(b):
+            with zipfile.ZipFile(io.BytesIO(b)) as z:
+                return {i.filename: z.read(i) for i in z.infolist()}
+        if not os.path.exists(out) or contents(open(out, "rb").read()) != contents(data):
             print(f"dist/{name}.zip is out of date: run python3 tools/build_zip.py")
             sys.exit(1)
         print(f"dist/{name}.zip is up to date")
