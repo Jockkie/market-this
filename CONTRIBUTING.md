@@ -50,3 +50,7 @@ By contributing you agree that your contribution is released under the MIT licen
 ## Questions
 
 Email info@jockkie.com or open an issue with the "Idea or improvement" template.
+
+## The upload zip
+
+`dist/market-this.zip` is what people upload to Microsoft Copilot, Claude.ai, ChatGPT and Grok. After any change in `skills/market-this`, run `python3 tools/build_zip.py` and commit the zip; the tests fail while it is out of date.
