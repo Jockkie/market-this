@@ -10,13 +10,7 @@ A go-to-market skill for owners and makers who want more customers without hirin
 
 Start by asking something like "nobody buys my product, help me sell it".
 
-Optional tools, always with your consent and behind a quote and a spending cap you set:
-- **Monid** for public market data (competitors, reviews, search demand)
-- **Flora** for visuals in your brand style
-- **MiroFish** to simulate how a market reacts to a launch, price or message
-- **Jev** (TypeSafe) for fast typed scoring as a second opinion
-
-The Monid and Flora MCP servers are registered but do nothing until you authenticate them with `/mcp`. Disclosure: the Monid and Flora sign-up links in the skill are affiliate links.
+Optional tools, always with your consent, a quote and a spending cap: see [Optional tools](#optional-tools).
 
 ## Install
 
@@ -60,6 +54,19 @@ Copy `skills/market-this` into the client's skills directory (for example `.agen
 | Codex, Cursor, Gemini CLI and others | Untested | Built to the Agent Skills format |
 
 The guard hook only runs in Claude Code. On other platforms, the visible self-check in the skill does that job. Tried it on an untested platform? [Tell us how it went](https://github.com/Jockkie/market-this/issues/new/choose), whether it worked or not.
+
+## Optional tools
+
+Everything works without paid tools. Where they help, always with your consent, a quote and a spending cap you set:
+
+- **[Monid](https://monid.ai?fpr=jockkie)**: public market data (competitors, reviews, search demand). MCP: `https://mcp.monid.ai/v1`
+- **[Flora](https://refer.flora.ai/jock-oosterveer-htu6)**: visuals in your brand style, from the brand brief the skill makes. MCP: `https://mcp.flora.ai/mcp`
+- **MiroFish**: simulate how a market reacts to a launch, price or message
+- **Jev** (TypeSafe): fast typed scoring as a second opinion
+
+The Monid and Flora MCP servers are registered but do nothing until you authenticate them with `/mcp`.
+
+**Disclosure:** the Flora and Monid links are affiliate links. Jockkie earns a commission when you create an account through them. The skill says so before it shares a link.
 
 ## How this skill keeps you from trusting a guess
 
